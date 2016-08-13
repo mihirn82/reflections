@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Answer: The diff - u old_file new_file command lists the lines having differences between the 2 files. Since, the output only shows the differences it is easy to pinpoint the difference in the line and hence find out the bug. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By having a complete version history of a file, as a programmer I would have access to all the changes I made to my code since inception. Hence, if a given change does not work, I would be able to revert my code very easily to the previous version. Also I would be able to compare the version using a diff command, thus making me more efficient by not having to manually search the difference in code in multiple version of the file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manually choosing a commit - The commits are more logical when manually committed. If the system would auto commit the code, the version control would have too many meaningless versions of the code that wouldn't even compile.
+    Cons of manually choosing a commit - If commit frequency is too big, there is a chance of loss of data between the commits.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is generally used for version control of source code. Sometimes, a logical change is likely to affect multiple source files. The multiple commit feature allows the user to see all the related files that underwent a change and thus provides better tracking. Google docs is used primarily to version control individual files. Hence, each file is version individually on Google docs.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log provides a history of all the commits on the file repository. git diff first_commit_id next_commit_id provides the difference of lines in code between two commit ids. + indicates addition and - indicates deletion.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control like git shows the changes made to a file between 2 commit points. Hence, if you introduced code that is breaking something, the diff between the commit ids would show what new was introduced that is breaking. Thus you could make changes more confidently.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try to use git to manage versioning of the source code files for all programming that I would do in future and explore major changes in code base to identify how this works.
