@@ -14,6 +14,7 @@ organized? How would branches help?
 Branching is especially useful if you want to make some experimental changes to your code but do not want to add these to the working version of the code as of yet.
 
 How do the diagrams help you visualize the branch structure?
+The diagrams help to visualize the branching out by denoting the commits on the master branch and on the other branches, and subsequent changes made to the master branch after branching out.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
