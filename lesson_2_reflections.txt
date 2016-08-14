@@ -11,6 +11,7 @@ When you make any changes to the file and save it, you can track the changes to 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branching is especially useful if you want to make some experimental changes to your code but do not want to add these to the working version of the code as of yet.
 
 How do the diagrams help you visualize the branch structure?
 
