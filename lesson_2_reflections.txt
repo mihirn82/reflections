@@ -7,6 +7,7 @@ The staging area is a temporary area in which you add the file(s) that you wish 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+When you make any changes to the file and save it, you can track the changes to be made using the git diff (without arguments) command. This command will compare the file from the Working Directory with the staging area. This way you are sure of the changes that you are going to commit are there in the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
