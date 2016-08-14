@@ -18,6 +18,7 @@ The diagrams help to visualize the branching out by denoting the commits on the 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result of merging two branches, is the changes made part of a new branch get merged into the checked out branch (say the master branch here). Hence, the new master would contain all its changes plus the changes made in the other branch. We indicate this in the diagram so as to represent the point at which merging took place from the perspective of commit-ids.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
