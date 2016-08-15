@@ -22,3 +22,5 @@ The result of merging two branches, is the changes made part of a new branch get
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+Pros - Git's automerging is able to merge changes in different areas of the same code to create the final version. Having to do all these changes manually is time consuming and prone to errors.
+Cons - Git's automerging feature is however, unable to resolve conflicts on the same lines of code made on multiple versions and cannot decide which one to retain. In this situation it is better to manually make the change and resolve the conflict.
