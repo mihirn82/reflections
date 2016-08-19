@@ -4,7 +4,7 @@ You would want to create a remote repository when you are ready to share the wor
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You may be working on a new feature in your local repository the changes for which you are yet to add to the remote. Hence, remote may be an older version than the local. By auto-updating the local from the remote you may lose the changes made to local. Hence, it is always better to do manually. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
