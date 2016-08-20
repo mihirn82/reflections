@@ -26,4 +26,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Suppose you were adding a new feature to your code which is experimental and you are not sure how it will work, you would create a new branch and make changes on to it rather than doing it in the master. This helps the master to be intact and at the same time it allows you to explore by making new changes.
